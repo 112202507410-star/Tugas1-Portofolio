@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Pandu Bayu Aji">
+    <title>Portofolio PANDU BAYU AJI A12.2025.07410</title>
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 1.7;
+            color: #222;
+            background-color: #f5f7fa;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        header, nav { text-align: center; }
+        nav a { color: #0b5394; text-decoration: none; font-weight: bold; }
+        nav a:hover { text-decoration: underline; }
+        section {
+            background-color: #ffffff;
+            border: 1px solid #dde3ea;
+            border-radius: 8px;
+            padding: 10px 25px 20px;
+            margin-bottom: 20px;
+        }
+        h2 { color: #0b5394; }
+        figure { margin: 0 0 20px; text-align: center; }
+        figure img {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 4px solid #0b5394;
+        }
+        figcaption { margin-top: 8px; font-style: italic; }
+        table { border-collapse: collapse; width: 100%; }
+        th, td { border: 1px solid #ccc; padding: 8px; text-align: left; }
+        th { background-color: #e8f0fa; }
+        input, textarea { width: 100%; padding: 8px; margin: 4px 0 12px; box-sizing: border-box; }
+        button { padding: 10px 20px; cursor: pointer; }
+        footer { text-align: center; padding: 15px 0 30px; color: #555; }
+
+        .data-diri {
+    display: grid;
+    grid-template-columns: 140px 1fr;
+    gap: 8px 10px;
+    max-width: 500px;
+    margin: 20px 0;
+    padding: 15px 20px;
+    background-color: #f5f9ff;
+    border-left: 4px solid #0b5394;
+    border-radius: 4px;
+}
+.data-diri dt {
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+}
+.data-diri dt::after {
+    content: ":";
+}
+
+.data-diri dd {
+    margin: 0;
+}
+    </style>
+</head>
+<body>
+
+    <!-- Header Halaman -->
+    <header id="atas">
+        <h1>PORTOFOLIO PANDU BAYU AJI</h1>
+        <h3>Program Studi Sistem Informasi - Universitas Dian Nuswantoro</h3>
+        <!-- membuat garis -->
+        <hr size="3" color="black" width="100%">
+    </header>
+
+    <!-- Navigasi Utama -->
+    <nav>
+        <a href="#profil">Profil Saya</a> |
+        <a href="#pendidikan">Riwayat Pendidikan</a> |
+        <a href="#keahlian">Keahlian &amp; Hobi</a> |
+        <a href="#proyek">Proyek Terkait</a> |
+        <a href="#kontak">Kontak</a>
+    </nav>
+
+    <hr size="1" color="gray" width="100%">
+
+    <main>
+
+        <!-- Bagian Profil -->
+        <section id="profil">
+            <h2>A. Profil Saya</h2>
+
+            <!-- Foto: simpan file di folder img dengan nama foto.jpg -->
+            <figure>
+                <img src="../images/fotopandu.jpeg" alt="Foto Pandu Bayu Aji">
+                <figcaption>Pandu Bayu Aji</figcaption>
+            </figure>
+
+            <p>
+                Halo, nama saya Pandu Bayu Aji, mahasiswa Program Studi Sistem Informasi
+                di Universitas Dian Nuswantoro dengan NIM A12.2025.07410. Saya tertarik pada
+                pengembangan web, pengelolaan data, dan teknologi informasi yang dapat membantu
+                menyelesaikan masalah sehari-hari.
+            </p>
+            <p>
+                Saya senang belajar hal baru, terbuka terhadap masukan, dan terbiasa bekerja
+                dalam tim. Melalui portofolio ini, saya ingin memperkenalkan diri, latar belakang
+                pendidikan, kemampuan, serta karya yang pernah saya buat.
+            </p>
+
+            <dl class="data-diri">
+    <dt>Nama lengkap</dt>
+    <dd>Pandu Bayu Aji</dd>
+
+    <dt>NIM</dt>
+    <dd>A12.2025.07410</dd>
+
+    <dt>Domisili</dt>
+    <dd>Semarang, Jawa Tengah</dd>
+</dl>
+        </section>
+
+        <!-- Bagian Pendidikan -->
+        <section id="pendidikan">
+            <h2>B. Riwayat Pendidikan</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Jenjang</th>
+                        <th>Institusi</th>
+                        <th>Tahun</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>S1 Sistem Informasi</td>
+                        <td>Universitas Dian Nuswantoro</td>
+                        <td>2025 - sekarang</td>
+                    </tr>
+                    <tr>
+                        <td>SMA / SMK</td>
+                        <td>SMK Muhammadiyah 1 Pemalang</td>
+                        <td>2022 - 2025</td>
+                    </tr>
+                    <tr>
+                        <td>SMP</td>
+                        <td>MTS Nurul Salam Wanarata</td>
+                        <td>2019 - 2022</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Bagian Keahlian & Hobi -->
+        <section id="keahlian">
+            <h2>C. Keahlian &amp; Hobi</h2>
+
+            <h3>Keahlian</h3>
+            <ul>
+                <li>HTML5 dan CSS dasar</li>
+                <li>Microsoft Word, Excel, dan PowerPoint</li>
+                <li>Git dan GitHub dasar</li>
+                <li>Komunikasi dan kerja sama tim</li>
+            </ul>
+
+            <h3>Hobi</h3>
+            <ol>
+                <li>Membaca buku cerita</li>
+                <li>Bermain sepakbola</li>
+                <li>Mendengarkan musik</li>
+            </ol>
+        </section>
+
+        <!-- Bagian Proyek -->
+        <section id="proyek">
+            <h2>D. Proyek Terkait</h2>
+
+            <article>
+                <h3>Website CV / Portofolio Pribadi</h3>
+                <p>
+                    Website satu halaman yang dibuat dengan HTML5 sebagai tugas mata kuliah.
+                    Berisi profil, riwayat pendidikan, keahlian, dan kontak.
+                </p>
+                <p>Teknologi: HTML5, CSS, Visual Studio Code, GitHub.</p>
+                <p><a href="https://github.com/112202507410-star/Tugas1-Portofolio" target="_blank" rel="noopener">Lihat repository GitHub</a></p>
+            </article>
+
+            <article>
+                <h3>Proyek Lainnya</h3>
+                <p>Menjadi ketua pelaksana SCRENNING 2026 bersama Himpunan Mahasiswa Sistem Informasi</p>
+            </article>
+        </section>
+
+        <!-- Bagian Kontak -->
+        <section id="kontak">
+            <h2>E. Kontak</h2>
+
+            <address>
+                Email: <a href="mailto:pandubayuaji97@gmail.com">pandubayuaji97@gmail.com</a><br>
+                Telepon: <a href="tel:+62813731619">+62 813-731-619</a><br>
+                GitHub: <a href="https://github.com/112202507410-star" target="_blank" rel="noopener">github.com/112202507410-star</a>
+            </address>
+
+            <h3>Kirim Pesan</h3>
+            <form action="#" method="post">
+                <label for="nama">Nama</label>
+                <input type="text" id="nama" name="nama" placeholder="Nama lengkap" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="email@contoh.com" required>
+
+                <label for="pesan">Pesan</label>
+                <textarea id="pesan" name="pesan" rows="4" placeholder="Tulis pesan Anda" required></textarea>
+
+                <button type="submit">Kirim Pesan</button>
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Pandu Bayu Aji - A12.2025.07410</p>
+        <p><a href="#atas">Kembali ke atas</a></p>
+    </footer>
+
+</body>
+</html>
